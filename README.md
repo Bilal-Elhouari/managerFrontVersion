@@ -1,41 +1,97 @@
-<<<<<<< HEAD
-# jobs4talents
-Projet Stage
-=======
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#   Landing Page
 
-## Getting Started
+Bienvenue sur le repository du landing page , développé avec **Next.js**.
 
-First, run the development server:
+## 🚀 Technologies utilisées
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Next.js](https://nextjs.org/) - Framework React pour le rendu côté serveur et statique
+- [React](https://react.dev/) - Bibliothèque JavaScript pour construire l'interface utilisateur
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS pour un design moderne et responsive
+
+## 📂 Structure du projet
+
+```
+📦 managerproject
+├── 📁 app
+│   ├── 📁 components   # Composants réutilisables
+│   │   ├── ContactSection.js
+│   │   ├── CTASection.js
+│   │   ├── FeatureSection.js
+│   │   ├── Footer.js
+│   │   ├── header.js
+│   │   ├── OffreRecrutement.js
+│   │   ├── OffreSection.js
+│   │   ├── services.js
+│   │   ├── StatisticSection.js
+│   │   ├── StatsSection.js
+│   │   ├── TeamsSection.js
+│   ├── 📁 contact
+│   │   ├── page.js
+│   ├── 📁 login
+│   │   ├── page.js
+│   ├── 📁 register
+│   │   ├── page.js
+│   ├── 📁 service
+│   │   ├── page.js
+│   │   ├── 📁 tarif
+│   │   │   ├── page.js
+├── favicon.ico         # Icône du site
+├── globals.css         # Styles globaux
+├── layout.tsx          # Layout principal
+├── page.tsx           # Page principale
+├── 📁 public
+│   ├── 📁 img          # Images du projet
+│   ├── 📁 logo         # Logo du projet
+│   ├── next.svg
+│   ├── vercel.svg
+├── 📁 node_modules     # Dépendances Node.js
+├── package.json        # Dépendances et scripts du projet
+├── README.md           # Documentation du projet
+└── next.config.js      # Configuration de Next.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Installation et lancement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1️⃣ Cloner le projet
+```bash
+git clone https://github.com/Bilal-Elhouari/managerFrontVersion.git
+cd managerFrontVersion
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 2️⃣ Installer les dépendances
+```bash
+yarn install
+# ou
+npm install
+```
 
-## Learn More
+### 3️⃣ Lancer le serveur de développement
+```bash
+yarn dev
+# ou
+npm run dev
+```
+Le projet sera accessible à l'adresse : `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Déploiement
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Avec Vercel :
+```bash
+vercel
+```
+Ou configure le projet via l'interface [Vercel](https://vercel.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Avec Netlify :
+- Connecte le repo GitHub à [Netlify](https://www.netlify.com/) et déploie directement.
 
-## Deploy on Vercel
+## 🛠 Améliorations futures
+- Ajouter des animations pour une meilleure UX
+- Optimiser les images avec Next.js (`next/image`)
+- Ajouter des tests avec Jest et Testing Library
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📩 Contact
+Pour toute question ou suggestion, n'hésite pas à me contacter via GitHub.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> e26dc07 (Initial commit from Create Next App)
+---
+✍️ **Auteur** : Bilal Elhouari
+
